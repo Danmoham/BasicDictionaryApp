@@ -1,0 +1,146 @@
+[
+    {
+    "word": "word",
+    "phonetic": "/wɜːd/",
+    "phonetics": [
+    {
+    "text": "/wɜːd/",
+    "audio": ""
+    },
+    {
+    "text": "/wɝd/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/word-us.mp3",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1197728",
+    "license": {
+    "name": "BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+    }
+    ],
+    "meanings": [
+    {
+    "partOfSpeech": "noun",
+    "definitions": [],
+    "synonyms": [
+    "Bible",
+    "word of God",
+    "God",
+    "Logos",
+    "promise",
+    "vocable"
+    ],
+    "antonyms": []
+    },
+    {
+    "partOfSpeech": "verb",
+    "definitions": [
+    {
+    "definition": "To say or write (something) using particular words; to phrase (something).",
+    "synonyms": [
+    "express",
+    "phrase",
+    "put into words",
+    "state"
+    ],
+    "antonyms": [],
+    "example": "I’m not sure how to word this letter to the council."
+    },
+    {
+    "definition": "To flatter with words, to cajole.",
+    "synonyms": [],
+    "antonyms": []
+    },
+    {
+    "definition": "To ply or overpower with words.",
+    "synonyms": [],
+    "antonyms": []
+    },
+    {
+    "definition": "To conjure with a word.",
+    "synonyms": [],
+    "antonyms": []
+    },
+    {
+    "definition": "To speak, to use words; to converse, to discourse.",
+    "synonyms": [],
+    "antonyms": []
+    }
+    ],
+    "synonyms": [
+    "express",
+    "phrase",
+    "put into words",
+    "state"
+    ],
+    "antonyms": []
+    },
+    {
+    "partOfSpeech": "interjection",
+    "definitions": [
+    {
+    "definition": "Truth, indeed, that is the truth! The shortened form of the statement \"My word is my bond.\"",
+    "synonyms": [],
+    "antonyms": [],
+    "example": "\"Yo, that movie was epic!\" / \"Word?\" (\"You speak the truth?\") / \"Word.\" (\"I speak the truth.\")"
+    },
+    {
+    "definition": "(stereotypically) An abbreviated form of word up; a statement of the acknowledgment of fact with a hint of nonchalant approval.",
+    "synonyms": [],
+    "antonyms": []
+    }
+    ],
+    "synonyms": [],
+    "antonyms": []
+    }
+    ],
+    "license": {
+    "name": "CC BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+    "https://en.wiktionary.org/wiki/word"
+    ]
+    },
+    {
+    "word": "word",
+    "phonetic": "/wɜːd/",
+    "phonetics": [
+    {
+    "text": "/wɜːd/",
+    "audio": ""
+    },
+    {
+    "text": "/wɝd/",
+    "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/word-us.mp3",
+    "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1197728",
+    "license": {
+    "name": "BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+    }
+    ],
+    "meanings": [
+    {
+    "partOfSpeech": "verb",
+    "definitions": [
+    {
+    "definition": "(except in set phrases) To be, become, betide.",
+    "synonyms": [],
+    "antonyms": [],
+    "example": "Well worth thee, me friend."
+    }
+    ],
+    "synonyms": [],
+    "antonyms": []
+    }
+    ],
+    "license": {
+    "name": "CC BY-SA 3.0",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+    "https://en.wiktionary.org/wiki/word",
+    "https://en.wiktionary.org/wiki/worth"
+    ]
+    }
+    ]
