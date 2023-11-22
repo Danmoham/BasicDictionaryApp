@@ -27,6 +27,7 @@ button{
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+  margin-bottom: 20px;
 }
 
 .button-50:focus {

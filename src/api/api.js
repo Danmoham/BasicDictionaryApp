@@ -32,7 +32,7 @@ export const getWord = async (word) =>{
                     let myEl = element.split(" ")
                     if (myEl.length === 1){
                     synonyms.push(element)
-                    }                });
+                    }  });
             }
             myWord.synonyms=synonyms
             return myWord
