@@ -5,20 +5,36 @@ const dictionaryApi = axios.create({
 
 export const getWord = async (word) =>{
     try {
+        const synonyms = []
         const { data } = await dictionaryApi.get(`/${word}`);
         const myDefinitions = []
-        const myWord = {word : data[0].word, synonyms : data[0].meanings[0].synonyms}
+        const myWord = {word : data[0].word, }
         if (((data[0].meanings[0].definitions).length) < 3){
            myWord.definitions = data[0].meanings[0].definitions
-           console.log(myWord)
+           for (let i = 0; i < data[0].meanings.length;i++){
+            data[0].meanings[i].synonyms.forEach(element => {
+                let myEl = element.split(" ")
+                if (myEl.length === 1){
+                synonyms.push(element)
+                }
+            });
+        }
+            myWord.synonyms = synonyms
            return myWord
         }else{
             for (let i = 0; i < 3;i++){
                 myDefinitions.push(data[0].meanings[0].definitions[i])
             }
             myWord.definitions = myDefinitions
-            console.log(data[0].meanings[0].synonyms)
-            console.log(myWord)
+
+            for (let i = 0; i < data[0].meanings.length;i++){
+                data[0].meanings[i].synonyms.forEach(element => {
+                    let myEl = element.split(" ")
+                    if (myEl.length === 1){
+                    synonyms.push(element)
+                    }                });
+            }
+            myWord.synonyms=synonyms
             return myWord
         }
     } catch ({response}) {
@@ -26,4 +42,3 @@ export const getWord = async (word) =>{
         return myMessage
     }
 }
-getWord("word")
